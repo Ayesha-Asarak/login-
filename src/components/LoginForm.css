@@ -1,0 +1,55 @@
+body {
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    background: linear-gradient(135deg, #9D0191, #FD3A69);
+    /* Additional styling properties */
+    /* Example: */
+    font-family: Arial, sans-serif;
+  }
+  
+  /*.login-form-container {
+    /* Additional styling properties */
+    /* Example: */
+    /*padding: 20px;
+    border-radius: 10px;*/
+    /* You may not need any background color here, as it's the child of body */
+ /* }*/
+
+ .custom-box {
+    width: 50.77%;
+    height: 94.65%;
+    background-color: #FFF4FE;
+    position: fixed;
+    top: 3%;
+    right: 2%;
+    /* Additional styling properties */
+    /* Example: */
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 15px;
+   
+  }
+
+  .rectangle-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px; /* Adjust as needed */
+    padding: 0 20px; /* Add padding to the sides */
+  }
+  
+  .rectangle {
+    width: 45%; /* Adjust width as needed */
+    height: 35px; /* Adjust height as needed */
+    background-color:#FFF4FE; /* Adjust background color as needed */
+    border: 1px solid black; /* Add border with black color */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .rectangle:hover {
+    background-color: #ecd3dce1; /* Change background color on hover */
+  }
+  
